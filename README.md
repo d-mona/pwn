@@ -4,7 +4,7 @@ Pwn is a repository of vulnerability reports created for every box that we've ro
 
 ---
 ## TryHackMe
-- DailyBugle
-- GameZone
-- HackPark
-- Skynet
+- [DailyBugle](DailyBugle.md)
+- [GameZone](GameZone.md)
+- [HackPark](HackPark.md)
+- [Skynet](Skynet.md)
