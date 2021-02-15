@@ -1,4 +1,4 @@
-[Links: [[TryHackMe Boxes]]
+b[Links: [[TryHackMe Boxes]]
 #linux 
 
 # Daily Bugle

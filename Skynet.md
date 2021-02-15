@@ -422,7 +422,7 @@ root:x:0:0:root:/root:/bin/bash daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin 
 We've proven that we can do LFI. We will try an RFI attack. 
 First we create a reverse PHP shell file:
 
-```
+```php
 <?php
 // php-reverse-shell - A Reverse Shell implementation in PHP
 // Copyright (C) 2007 pentestmonkey@pentestmonkey.net

@@ -240,7 +240,7 @@ This vulnerability can be fixed by upgrading to a new version of BlogEngine.
 High - Based score of 8.8 from https://nvd.nist.gov/vuln/detail/CVE-2019-10719
 
 **Proof of Concept Code Here:**
-```
+```python
 # Exploit Title: Directory Traversal + RCE on BlogEngine.NET
 # Date: 17 Jun 2019
 # Exploit Author: Aaron Bishop

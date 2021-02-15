@@ -165,7 +165,7 @@ videogamer124    (?)
 We find the password for ==agent47== of ==videogamer124==
 
 We login to the machine through ssh with those credentials
-```
+```bash
 └─$ ssh agent47@10.10.185.92
 The authenticity of host '10.10.185.92 (10.10.185.92)' can't be established.
 ECDSA key fingerprint is SHA256:mpNHvzp9GPoOcwmWV/TMXiGwcqLIsVXDp5DvW26MFi8.
@@ -371,7 +371,7 @@ Upgrade to a newer release of Webmin (higher than 1.920)
 CVSS Score 6.5
 
 **Exploit Code:**
-```
+```ruby
 ##
 # This module requires Metasploit: http://metasploit.com/download
 # Current source: https://github.com/rapid7/metasploit-framework
