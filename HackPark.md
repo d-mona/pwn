@@ -1,4 +1,4 @@
-**Links: [[TryHackMe Boxes]]
+Links: [[TryHackMe Boxes]]
 #Windows
 
 # HackPark
