@@ -82,11 +82,11 @@ We found a wordpress login page at /blog and a phpmyadmin login page at /phpmyad
 **Initial Shell Vulnerability Exploited:**
 We try default username for wordpress *admin* with password *admin* We get the following error message saying that the password is incorrect for username *admin*:
 
-![](20210220170517.png)
+![](img/20210220170517.png)
 
 We use the username *root* with the password *root*. The error message returned is different saying that the username is unknown:
 
-![](20210220170659.png)
+![](img20210220170659.png)
 
 This means that username admin is valid.  We use wpscan to bruteforce the password with password list rockyou.txt:
 
@@ -416,7 +416,7 @@ High
 
 **Proof Screenshot Here:**
 
-![](20210220190336.png)
+![](img/20210220190336.png)
 
 **Proof.txt Contents:**
 ```
@@ -502,7 +502,7 @@ ssh -L 8080:localhost:8080 aubreanna@internal.thm
 
 We are able to get to the login page of Jenkins:
 
-![](20210220210130.png)
+![](img/20210220210130.png)
 
 We use msfconsole "scanner/http/jenkins_login" module to bruteforce the password of Jenkins. A bit of research shows us that the default username for Jenkins is "admin" so we try bruteforcing with this username first. We use the following options:
 
@@ -547,7 +547,7 @@ msf6 auxiliary(scanner/http/jenkins_login) >
 
 We login with those credentials by going to the webpage at localhost:8080 and login with those credentials successfully:
 
-![](20210220221727.png)
+![](img/20210220221727.png)
 
 We go to Manage Jenkins -> Script Console. Enter the following information to get a remote shell:
 ```
@@ -608,7 +608,7 @@ High
 
 **Proof Screenshot Here:**
 
-![](20210220220913.png)
+![](img/20210220220913.png)
 
 **Proof.txt Contents:**
 
